@@ -4,4 +4,4 @@
 ###1.修改application.properties中的数据库配置信息，创建所需的数据库（news）。
 ###2.将application.properties文件中的spring.datasource.initialize改为true.
 ###3.运行NewsDemoApplicationTests中的loadNewsType测试方法，开始导入新闻数据进入本地数据库中。
-###4.启动项目，运行NewsDemoApplication。
+###4.将application.properties文件中的spring.datasource.initialize改为false（重要）,启动项目，运行NewsDemoApplication。
